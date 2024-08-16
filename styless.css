@@ -1,0 +1,544 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    top: 0px;
+    height: 80vh;
+    width: 100%;
+    background-image:url("img/langpage -3.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 44px;
+}
+.menu-links a{
+    
+    text-decoration: none;
+    font-size: 16p;
+    
+}
+a.sign-in{
+    padding: 10px;
+    border-radius: 50px;
+    color:#fff;
+    
+     
+}
+
+a.sign-up{
+    background-color: #fff;
+    color: #1f1616;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.form{
+    margin-top: 2px;
+    width: 100%;
+}
+
+.all-input{
+    display: flex;
+    justify-content: center;
+}
+
+.text h1{
+    text-align: center;
+    padding-bottom: 80px;
+    font-size: 35px;
+    color: #fff;
+    
+}
+
+.input input{
+    width: 408px;
+    font-size: 20px;
+    padding: 20px 10px 20px 50px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+}
+.input input::placeholder{
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+.input input:focus{
+    padding-left: 50px;
+    border: 1px solid blue;
+}
+.location{
+    margin-left: -400px;
+    margin-top: 200px;
+}
+.search{
+    margin-top: 12px;
+    margin-left: 330px;
+    width: 35px;
+    height: 35px;
+    outline: none;
+    border-radius: 50%;
+}
+.search .uil-arrow-right{
+    position: relative;
+    top: 4px;
+    left: 8px;
+    font-size: 24px;
+    color: #fff;
+
+}
+.location .uil{
+    position: relative;
+    top: 20px;
+    left: 6px;
+    font-size: 24px;
+    color: #494949;
+}
+
+.user-icon{
+    margin-top: 30px;
+}
+.user-icon .uil{
+    margin-left: -215px;
+    margin-top: 30px;
+    font-size: 16px;
+    color: black;
+    
+
+}
+.link-user{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+    
+}
+.link-user a {
+ color: #fff;
+}
+
+
+.section2{
+    margin: auto;
+    margin-top: 100px;
+    width: 60%;
+    display: flex;
+    gap: 60px;
+    flex-flow: row;
+}
+.section2 img{
+    width: 150px;
+    height: 124px;
+}
+.motocycle-img, .store-img, .phone-img{
+    text-align: center;
+}
+.section2 h2{
+    font-size: 25px;
+    color: #191919;
+    text-align: center;
+    
+}
+.section2 p{
+    font-size: 18px;
+    color: #191919;
+    text-align: center;
+    padding: 10px 0px;
+    line-height: 1.7rem;
+}
+.anchor{
+    text-align: center;
+}
+.section2 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #EB1700;
+    text-align: center;
+}
+.section2 .uil-arrow-right{
+    color: #EB1700;
+    font-size: 18px;
+}
+ 
+.section3{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+
+}
+.section3 img{
+    width: 608px;
+}
+
+.food1{
+    padding-left: 20px;
+    margin-top: 100px;
+    
+}
+
+.section3 h2{
+    font-size: 24px;
+    font-weight: bold;
+    color: #191919;
+    margin-bottom: 15px;
+}
+.section3 h4{
+    font-size: 18px;
+    color: #191919;
+    margin-bottom: 15px;
+}
+.section3 p{
+    font-size: 14px;
+    color: #191919;
+    text-align: justify;
+    line-height: 1.5rem;
+    margin-bottom: 20px;
+}
+.food1-btn button{
+    font-size: 16px;
+    width: 150px;
+    height: 40px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #EB1700;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+.food1-btn button:hover{
+    background-color: #c91905;
+    transition: 0.2s all;
+}
+
+.section4{
+    width: 100%;
+    height: 700px;
+    background-color: #FEF1EE;
+    margin-top: 120px;
+    
+}
+.food2{
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -150px;
+    
+}
+.section4-heading{
+
+    margin-top: 100px;
+    
+}
+.dashPass-img{
+    
+    padding-left: 20px;
+    margin-top: 80px;
+}
+.d
+.grocery-heading h3{
+    font-size: 20px;
+    color: #fff;
+    font-weight: bolder;
+    margin-bottom: 20px;
+
+}
+.grocery-heading p{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 20px;
+
+}
+
+img{
+    width: 608px;
+}
+.section4 h2{
+    font-size: 24px;
+    font-weight: bold;
+    color: #191919;
+    margin-bottom: 15px;
+}
+.section4 h4{
+    font-size: 18px;
+    color: #191919;
+    margin-bottom: 15px;
+}
+.section4 p{
+    font-size: 14px;
+    color: #191919;
+    line-height: 1.5rem;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.section4-btn{
+    text-align: left;
+}
+.section4-btn button{
+    font-size: 16px;
+    width: 150px;
+    height: 40px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #EB1700;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+.section4-btn button:hover{
+    background-color: #c91905;
+    transition: 0.2s all;
+}
+
+
+
+.footer{
+    width: 100%;
+    height: 1000px;
+    background-color: black;
+    position: relative;
+    
+}
+
+.top-city{
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 80px;
+}
+.top-city ul{
+    display: block;
+    list-style: none;
+    margin-top: 20px;
+    
+    
+}
+ul li{
+    padding: 5px 0px 
+}
+.top-city h3{
+    color: #fff;
+}
+.top-city ul li a{
+    color: #C4C4C4;
+    font-size: 14px;
+    
+}
+.top-city a{
+    text-decoration: none;
+    
+}
+.top-city a:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+.div1{
+    position: absolute;
+    left: 5%;
+}
+.div2{
+    position: absolute;
+    top: 20px;
+    left: 25%;
+}
+.div3{
+    position: absolute;
+    top: 20px;
+    left: 40%;
+}
+.div4{
+    position: absolute;
+    top: 0;
+    left: 55%;
+}
+.div5{
+    position: absolute;
+    top: 20px;
+    left: 80%;
+}
+
+.categories{
+    display: flex;
+    width: 90%;
+    position: absolute;
+    top: 200px;
+}
+.categories ul{
+    display: block;
+    list-style: none;
+    margin-top: 20px;
+    
+    
+}
+ul li{
+    padding: 5px 0px !important;
+}
+.categories h3{
+    color: #fff;
+}
+.categories ul li a{
+    color: #C4C4C4;
+    font-size: 14px;
+    
+}
+.categories a{
+    text-decoration: none;
+    
+}
+.categories a:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+.div6{  
+    position: absolute;
+    left: 5%;
+}
+.div7{
+    position: absolute;
+    top: 20px;
+    left: 30%;
+}
+.div8{
+    position: absolute;
+    top: 20px;
+    left: 55%;
+}
+.div9{
+    position: absolute;
+    top: 20px;
+    left: 80%;
+}
+
+.about{
+    display: flex;
+    width: 95%;
+    position: absolute;
+    top: 200px;
+}
+.about ul{
+    display: block;
+    list-style: none;
+    margin-top: 20px;
+    
+    
+}
+ul li{
+    padding: 5px 0px;
+}
+.about h3{
+    color: #fff;
+}
+.about ul li a{
+    color: #C4C4C4;
+    font-size: 14px;
+    
+}
+.about a{
+    text-decoration: none;
+    
+}
+.about a:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+.div10{
+    position: absolute;
+    left: 5%;
+}
+.div11{
+    position: absolute;
+    top: 20px;
+    left: 30%;
+}
+.div12{
+    position: absolute;
+    top: 20px;
+    left: 55%;
+}
+.div13{
+    position: absolute;
+    top: 20px;
+    left: 80%;
+}
+.uil{
+    color: #C4C4C4;
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    top: 15px;
+    left: 5px;
+}
+.android{
+    background-color: #494949;
+    width: 200px;
+    height: 80px;
+    border-radius: 20px;
+}
+.android a{
+    text-decoration: none;
+    color: #C4C4C4;
+    font-size: 12px;
+}
+.android a span{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.appStore{
+    margin-top: 30px;
+    background-color: #494949;
+    width: 200px;
+    height: 80px;
+    border-radius: 20px;
+}
+.appStore a{
+    text-decoration: none;
+    color: #C4C4C4;
+    font-size: 12px;
+}
+.appStore a span{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px
+}
+.privacy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 700px;
+    left: 50px;
+}
+.privacy-items a{
+    margin: 0px 10px;
+    font-size: 12px;
+    color: #C4C4C4;
+}
+
+.logo-footer {
+    width: 20px;
+    height: 20px;
+    
+}
+   
